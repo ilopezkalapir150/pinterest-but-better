@@ -1,0 +1,11 @@
+{
+  "name": "npm-pinterest",
+  "version": "1.0.0",
+  "description": "a better pinterest by izzy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ilopezkalapir",
+  "license": "ISC"
+}

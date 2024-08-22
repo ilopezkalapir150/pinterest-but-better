@@ -1,3 +1,12 @@
+import puppeteer from 'puppeteer';
+
+const testing = async () => {
+    const broswer = await puppeteer.launch();
+    const page = await Browser.newPage();
+    await page.goto(url);
+    await page.screenshot({ path: 'screenshot.jpg' })
+}
+
 function loadLocalImages() {
     // need node js to make a server and loop thru all images if i want the number in the folder ugh
     // lets just use vue and learn it later
