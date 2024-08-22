@@ -1,0 +1,47 @@
+body {
+    background-color: #F4F0EA;
+}
+
+nav {
+    background-color: aqua;
+    height: 80px;
+    /* background: #fff; */
+    display: flex;
+    padding-left: 30px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* padding: 0rem calc((100vw - 1300px)/2); */
+}
+
+nav h1 {
+    color: #D92F11;
+    font-size: 30px;
+}
+
+/* nav a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    padding: 0 1.5rem;
+}
+
+nav a:hover {
+    color: #d3d3d3
+} */
+
+.play-area {
+    background-color: pink;
+}
+
+#pictures-container {
+    background-color: aquamarine;
+}
+
+.medium-size {
+    width: 20vw;
+}
+
+.test-button {
+    width: 30px;
+    height: 30px;
+}
